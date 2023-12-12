@@ -3,8 +3,7 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-
-	"github.com/Jk1484/restAPI/internal/books"
+	"restAPI/internal/books"
 )
 
 type Handler interface {
